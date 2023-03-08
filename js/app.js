@@ -1,7 +1,7 @@
 let start =  document.getElementById('start')
 let titlep = document.getElementById('titlep')
-setTimeout( function(){start.style.display='none'},4000 )
-setTimeout( function(){titlep.style.display='block'},2000 )
+setTimeout( function(){start.style.display='none'},2000 )
+setTimeout( function(){titlep.style.display='block'},1000 )
 
 // const canvas = document.querySelector('canvas');
 // const ctx = canvas.getContext('2d');
