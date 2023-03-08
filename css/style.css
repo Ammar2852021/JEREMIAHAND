@@ -6,10 +6,10 @@ body{background-color: #eee;}
 .start-page .title-name{text-align: center;
 margin-bottom: 1vh;
 
-font-family: 'Playfair Display', serif;
+font-family: 'Playfair Display SC', serif;
 margin-top: 45vh;
 box-shadow: 0 0 0 1000vmax #eee;
-font-weight: 700;}
+font-weight: 300;}
 
 .typing-demo {
 width: 18ch;
@@ -17,7 +17,6 @@ animation: typing 1s steps(22),
 blink 5s step-end infinite alternate;
 white-space: nowrap;
 overflow: hidden;
-border-right: 3px solid;
 margin: auto;}
 @keyframes typing {from {width: 0}}    
 @keyframes blink {50% {border-color: transparent}}
